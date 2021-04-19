@@ -1,7 +1,8 @@
-.container{
-    width: 1010px;
-}
 
+.container{
+    width: 1920px;
+    position: relative;
+}
 
 .header-immage{
     background-color: rgb(18, 137, 192);
@@ -9,8 +10,15 @@
     height:120px;
     background-size:contain;
     background-repeat: repeat;
+   
     
 
+}
+.container2{
+    width: 1010px; 
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0%);
 }
 
 .logo{
@@ -21,6 +29,14 @@
     background-repeat: no-repeat;
     top: 60px;
     left:10px;
+}
+
+main{
+    width: 1010px; 
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0%);
+
 }
 
 .writer-title, .consigli{
@@ -154,6 +170,3 @@
     top: -10px;
    
 }
-
-
-
