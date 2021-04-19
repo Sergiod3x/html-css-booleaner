@@ -86,6 +86,10 @@ main{
     margin-top: 25px;
 }
 
+ul{
+    margin-left: -24px;
+}
+
 .highlight{
     background-color: #fffb00;
 }
